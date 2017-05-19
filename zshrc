@@ -6,9 +6,6 @@ ssh-add -A
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-# file loading autocompletion for rbenv
-source ~/.rbenv/completions/rbenv.zsh
-
 # rails sql password
 export RAILS_MYSQL_USER="root"
 export RAILS_MYSQL_PASSWORD=""
