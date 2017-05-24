@@ -4,6 +4,7 @@ ssh-add -A
 
 # keep this at the top
 export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="/usr/local/bin:$PATH"
 eval "$(rbenv init -)"
 
 # rails sql password
@@ -16,6 +17,8 @@ alias mostused='history | awk '"'"'{CMD[$2]++;count++;}END { for (a in CMD)print
 alias j='jump'
 alias hg='history | grep'
 alias c='clear'
+alias sub='sublime'
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
