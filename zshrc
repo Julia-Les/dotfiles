@@ -21,6 +21,8 @@ alias j='jump'
 alias hg='history | grep'
 alias c='clear'
 alias sub='sublime'
+alias bit='cd ~/Code/Work/fms_bit_client'
+
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
