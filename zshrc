@@ -5,6 +5,7 @@ ssh-add -A
 # keep this at the top
 export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/opt/percona-server@5.6/bin:$PATH"
 eval "$(rbenv init -)"
 
 # my ZSH theme
