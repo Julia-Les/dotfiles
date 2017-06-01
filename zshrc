@@ -26,6 +26,8 @@ alias c='clear'
 alias sub='sublime'
 alias subl='sublime'
 alias bit='cd ~/Code/Work/fms_bit_client'
+alias gs='git status'
+
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
