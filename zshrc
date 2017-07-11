@@ -27,7 +27,7 @@ alias sub='sublime'
 alias subl='sublime'
 alias bit='cd ~/Code/Work/fms_bit_client'
 alias gs='git status'
-
+alias gre="git for-each-ref --sort='''authordate:iso8601''' --format=''' %(authordate:relative)%09%(refname:short)''' refs/heads"
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
