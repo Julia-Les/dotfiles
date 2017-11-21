@@ -15,6 +15,20 @@ ZSH_THEME="agnoster"
 export RAILS_MYSQL_USER="root"
 export RAILS_MYSQL_PASSWORD=""
 
+# add functions to update ma with current ma branch
+# run this from local branch to rebase current branch with ma
+function update_ma() {
+  git checkout ma && git pull && git checkout - && git rebase ma
+}
+
+function update_master() {
+  git checkout master && git pull && git checkout - && git rebase master
+}
+
+function update_birch() {
+  git checkout birch && git pull && git checkout - && git rebase birch
+}
+
 # my custom aliases
 alias vi='nvim'
 alias vim='nvim'
